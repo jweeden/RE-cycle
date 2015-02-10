@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>My Website</title>
+    <title>RE:cycle</title>
 
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -14,14 +14,33 @@
   </head>
   <body>
 
-    <h3>Heading</h3>
+    <div data-magellan-expedition="fixed">
+      <dl class="sub-nav">
+        <dd data-magellan-arrival="Top"><a href="#Top">RE:cycle</a></dd>
+        <dd data-magellan-arrival="about"><a href="#about">About</a></dd>
+      </dl>
+    </div>
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit, repellat, officia animi asperiores illo cupiditate praesentium eaque beatae id autem voluptatem natus dolorem consectetur facere repellendus ex rem. Laborum.</p>
+    <div class="row">
+      <a name="Top"></a>
+      <div class="small-8 large-8 large-offset-2 medium-offset-2 columns">
+        <h1 data-magellan-destination="Top">RE:cycle</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit, repellat, officia animi asperiores illo cupiditate praesentium eaque beatae id autem voluptatem natus dolorem consectetur facere repellendus ex rem. Laborum.</p>
+      </div>
+    </div>
 
+    <div class="row">
+      <a name="about"></a>
+      <div class="small-8 large-8 large-offset-2 medium-offset-2 columns">
+        <h3 data-magellan-destination="about">About</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit, repellat, officia animi asperiores illo cupiditate praesentium eaque beatae id autem voluptatem natus dolorem consectetur facere repellendus ex rem. Laborum.</p>
+      </div>
+    </div>
 
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
     <script src="js/scripts.js"></script>
 
   </body>
