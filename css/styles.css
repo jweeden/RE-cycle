@@ -1,1 +1,84 @@
 /* GLOBAL-----------------------------------------------------------*/
+body {
+    color: #555;
+    background: url("../img/footer_lodyas.png") repeat;
+}
+h1 {
+    font-size: 72px;
+    padding-bottom: 25px;
+    font-family: 'Shadows Into Light', cursive;
+    color: #000;
+}
+
+h2, h3, h4 {
+    font-family: 'Shadows Into Light', cursive;
+    color: #000;
+}
+
+a {
+    color: grey;
+}
+
+a:focus, a:hover, a:active {
+    color: green;
+}
+
+li{
+    margin-top: 10px;
+}
+ul li ul li{
+    margin-top: 10px;
+}
+
+footer{
+opacity: 0.6;
+padding: 10px 0 25px 0;
+color: #FFF;
+}
+
+footer a{
+margin: 0 25px 0 25px;
+}
+
+/*Group styling-----------------------------------------------------*/
+.group {
+background: #FFF;
+padding: 25px 10px 75px 10px;
+}
+.last {
+border-radius: 0 0 5px 5px;
+padding-top: 50px;
+}
+.last ul{
+list-style-type: none;
+}
+.last li{
+margin: 25px 0 25px 0;
+padding: 10px 5px 10px 5px;
+background: #DDD;
+border-radius: 5px;
+}
+
+
+/* Nav Styling------------------------------------------------------*/
+.sub-nav {
+background: #000;
+width: auto;
+padding: 0px;
+margin: 0px;
+opacity: 1.0;
+}
+.sub-nav dt a, .sub-nav dd a, .sub-nav li a {
+    color: white;
+}
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+    background: green;
+}
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+opacity: 0.8;
+background: #000;
+z-index: 50;
+min-width: 100%;
+padding: 10px;
+border-radius: 0 0 5px 5px;
+}
