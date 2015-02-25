@@ -1,7 +1,7 @@
 /* GLOBAL-----------------------------------------------------------*/
 body {
     color: #555;
-    background: url("../img/footer_lodyas.png") repeat;
+    background-color: #B5E8C8;
 }
 h1 {
     font-size: 72px;
@@ -25,9 +25,11 @@ a:focus, a:hover, a:active {
 
 li{
     margin-top: 10px;
+    list-style-type: none;
 }
 ul li ul li{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 footer{
