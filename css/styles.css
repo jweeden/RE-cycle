@@ -9,9 +9,24 @@ h1 {
     color: #000;
 }
 
+.logo {
+  position: fixed;
+  left: 45px;
+  top: 90px;
+  z-index: -50;
+}
+
+img {
+  padding-bottom: 20px;
+}
+
 h2, h3, h4 {
     font-family: 'Shadows Into Light', cursive;
     color: #000;
+}
+
+h5 {
+    color: #8CC63F;
 }
 
 a {
@@ -65,7 +80,7 @@ border-radius: 5px;
 
 
 .bar {
-  background: #9ECC84;
+  background: #8CC63F;
   width: 50px;
   height: 100000px;
   position: fixed;
@@ -74,7 +89,7 @@ border-radius: 5px;
   z-index: -50;
 }
 .bar2 {
-  background: #637F53;
+  background: #51791B;
   width: 10px;
   height: 100000px;
   position: fixed;
